@@ -1,0 +1,9 @@
+---
+username: kitchen
+ssh_key: "/home/ec2-user/latest_master/chef-repo/cookbooks/myapache/.kitchen/docker_id_rsa"
+image_id: 111faab0b6c3
+container_id: b67e91e4a50b92d24caed87a80557043a035a88e4b9ea43a70b774a325510fdd
+hostname: localhost
+port: 32773
+last_action: create
+last_error: Berkshelf::NoSolutionError
