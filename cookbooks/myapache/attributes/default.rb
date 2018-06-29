@@ -2,7 +2,7 @@ default["apache"]["sites"]["chef1"] = { "port" => 80, "domain" => "chef1.trainin
 default["apache"]["sites"]["chef2"] = { "port" => 80, "domain" => "chef2.training1230.com", "site_title" => "chef2 web content" }
 default["apache"]["sites"]["chef3"] = { "port" => 80, "domain" => "chef3.training1230.com", "site_title" => "chef3 web content" }
 
-default["author"]["name"] = "oracle"
+default["author"]["name"] = "oracle_123"
 
 case node["platform"]
 when "amazon"
