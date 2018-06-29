@@ -6,5 +6,5 @@
 # found at http://inspec.io/docs/reference/resources/
 
 describe package('cowsay') do
-	it { should be_installed }
+	it { should_not be_installed }
 end
